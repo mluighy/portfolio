@@ -1,0 +1,43 @@
+.navbar-brand {
+  padding: 5px 8px;
+  transition: background-color 0.7s;
+}
+
+.navbar-brand:hover {
+  background-color: #dee2e6;
+  border-radius: 7px;
+}
+
+.accordion-button:hover {
+  color: #0d6efd;
+  transition: background-color 0.7s;
+}
+
+#skills img {
+  max-width: 90px;
+  height: auto;
+  padding: 3px;
+}
+
+hr {
+  height: 0px;
+  border: none;
+  border-top: 2px solid;
+}
+
+/* Scroll to top button */
+#scroll-up {
+  position: fixed;
+  right: .5%;
+  bottom: 12%;
+  width: 3rem;
+  height: 3.4rem;
+  border-radius: 30%;
+  cursor: pointer;
+  transition: color .5s;
+  color: rgba(239, 2, 2, 0.641);
+}
+
+#scroll-up:hover {
+  color: rgb(239, 2, 2);
+}
